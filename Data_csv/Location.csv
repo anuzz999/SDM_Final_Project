@@ -1,0 +1,336 @@
+Location ID,City Name,State Province Name,Country Name,Developing Flag,Wealt Rank Number
+1,Marysville,Washington,USA,,161
+2,Perris,California,USA,,319
+3,Cleveland,Ohio,USA,,327
+4,Worcester,Massachusetts,USA,,68
+5,Columbia,South Carolina,USA,,244
+6,Waterbury,Connecticut,USA,,248
+7,Eagan,Minnesota,USA,,129
+8,Southfield,Michigan,USA,,155
+9,Lafayette,Louisiana,USA,,179
+10,Boise City,Idaho,USA,,322
+11,Elkhart,Indiana,USA,,58
+12,Buena Park,California,USA,,328
+13,Marietta,Georgia,USA,,52
+14,Parker,Colorado,USA,,130
+15,West Palm Beach,Florida,USA,,288
+16,Salem,Massachusetts,USA,,17
+17,Aurora,Illinois,USA,,1
+18,Leesburg,Virginia,USA,,159
+19,Doral,Florida,USA,,60
+20,Westminster,California,USA,,29
+21,Lubbock,Texas,USA,,130
+22,Overland Park,Kansas,USA,,74
+23,Jackson,Mississippi,USA,,129
+24,Gastonia,North Carolina,USA,,300
+25,Daytona Beach,Florida,USA,,254
+26,Kansas City,Missouri,USA,,54
+27,Rancho Palos Verdes,California,USA,,31
+28,Burnsville,Minnesota,USA,,305
+29,Rowlett,Texas,USA,,151
+30,Roswell,New Mexico,USA,,165
+31,Montgomery,Alabama,USA,,247
+32,Logan,Utah,USA,,56
+33,Woburn,Massachusetts,USA,,205
+34,Allentown,Pennsylvania,USA,,56
+35,Mount Pleasant,South Carolina,USA,,188
+36,Columbus,Georgia,USA,,130
+37,Buffalo,New York,USA,,253
+38,New Berlin,Wisconsin,USA,,66
+39,North Richland Hills,Texas,USA,,166
+40,Lima,Ohio,USA,,116
+41,Sacramento,California,USA,,29
+42,Fort Smith,Arkansas,USA,,79
+43,East Providence,Rhode Island,USA,,57
+44,Urbandale,Iowa,USA,,125
+45,Mount Vernon,New York,USA,,184
+46,Lakewood,Colorado,USA,,180
+47,Henderson,Nevada,USA,,56
+48,Covina,California,USA,,174
+49,Stamford,Connecticut,USA,,180
+50,Bloomington,Indiana,USA,,172
+51,Kingsport,Tennessee,USA,,52
+52,Spokane,Washington,USA,,140
+53,Kennewick,Washington,USA,,313
+54,Philadelphia,Pennsylvania,USA,,264
+55,Bellingham,Washington,USA,,171
+56,Visalia,California,USA,,66
+57,La Crosse,Wisconsin,USA,,208
+58,Council Bluffs,Iowa,USA,,287
+59,North Lauderdale,Florida,USA,,215
+60,Dallas,Texas,USA,,102
+61,Antioch,California,USA,,15
+62,Sterling Heights,Michigan,USA,,217
+63,Deerfield Beach,Florida,USA,,30
+64,Fishers,Indiana,USA,,257
+65,Cheyenne,Wyoming,USA,,31
+66,Murrieta,California,USA,,221
+67,Lenexa,Kansas,USA,,195
+68,Noblesville,Indiana,USA,,202
+69,Southaven,Mississippi,USA,,36
+70,Chino,California,USA,,79
+71,Gaithersburg,Maryland,USA,,132
+72,Fountain Valley,California,USA,,143
+73,Frederick,Maryland,USA,,159
+74,Greenville,North Carolina,USA,,320
+75,DeKalb,Illinois,USA,,38
+76,West Allis,Wisconsin,USA,,87
+77,Thornton,Colorado,USA,,228
+78,West Des Moines,Iowa,USA,,38
+79,Fall River,Massachusetts,USA,,170
+80,Tulare,California,USA,,224
+81,Chula Vista,California,USA,,121
+82,Coral Springs,Florida,USA,,20
+83,Concord,North Carolina,USA,,141
+84,Smyrna,Georgia,USA,,37
+85,Apopka,Florida,USA,,112
+86,Grand Forks,North Dakota,USA,,79
+87,Lancaster,Ohio,USA,,219
+88,Naperville,Illinois,USA,,259
+89,Hollywood,Florida,USA,,104
+90,Rogers,Arkansas,USA,,204
+91,New Orleans,Louisiana,USA,,238
+92,Lakewood,Washington,USA,,304
+93,Oak Lawn,Illinois,USA,,57
+94,Caldwell,Idaho,USA,,45
+95,Portland,Oregon,USA,,280
+96,Concord,California,USA,,54
+97,Burien,Washington,USA,,10
+98,St. Charles,Missouri,USA,,121
+99,Waukesha,Wisconsin,USA,,42
+100,Flagstaff,Arizona,USA,,182
+101,Puyallup,Washington,USA,,328
+102,Schenectady,New York,USA,,324
+103,Denver,Colorado,USA,,325
+104,Springfield,Illinois,USA,,130
+105,Campbell,California,USA,,164
+106,Moreno Valley,California,USA,,39
+107,Kettering,Ohio,USA,,63
+108,Lincoln Park,Michigan,USA,,134
+109,Lake Havasu City,Arizona,USA,,212
+110,North Little Rock,Arkansas,USA,,243
+111,Reno,Nevada,USA,,294
+112,Littleton,Colorado,USA,,292
+113,Prescott,Arizona,USA,,29
+114,Dublin,California,USA,,26
+115,Texarkana,Texas,USA,,256
+116,Portland,Maine,USA,,250
+117,Brooklyn Park,Minnesota,USA,,174
+118,West Haven,Connecticut,USA,,304
+119,El Centro,California,USA,,117
+120,The Colony,Texas,USA,,253
+121,Flint,Michigan,USA,,248
+122,Pittsburg,California,USA,,255
+123,Buckeye,Arizona,USA,,319
+124,Brea,California,USA,,181
+125,Indio,California,USA,,174
+126,Scottsdale,Arizona,USA,,195
+127,Columbus,Ohio,USA,,239
+128,Lancaster,Pennsylvania,USA,,123
+129,Lincoln,Nebraska,USA,,134
+130,Trenton,New Jersey,USA,,151
+131,Boston,Massachusetts,USA,,65
+132,Glendora,California,USA,,182
+133,Rochester,Minnesota,USA,,231
+134,Florissant,Missouri,USA,,10
+135,Annapolis,Maryland,USA,,90
+136,Chapel Hill,North Carolina,USA,,137
+137,Lawrence,Indiana,USA,,333
+138,Calexico,California,USA,,21
+139,Calumet City,Illinois,USA,,265
+140,Missoula,Montana,USA,,258
+141,Clovis,California,USA,,92
+142,Pearland,Texas,USA,,298
+143,Gilbert,Arizona,USA,,43
+144,Wausau,Wisconsin,USA,,38
+145,Raleigh,North Carolina,USA,,144
+146,Orange,California,USA,,267
+147,Walnut Creek,California,USA,,31
+148,Bremerton,Washington,USA,,217
+149,Porterville,California,USA,,204
+150,Marana,Arizona,USA,,140
+151,Tallahassee,Florida,USA,,316
+152,Conroe,Texas,USA,,224
+153,Blacksburg,Virginia,USA,,76
+154,San Antonio,Texas,USA,,27
+155,Hartford,Connecticut,USA,,164
+156,Waterloo,Iowa,USA,,292
+157,Binghamton,New York,USA,,295
+158,Meridian,Idaho,USA,,36
+159,Fond du Lac,Wisconsin,USA,,16
+160,Baytown,Texas,USA,,67
+161,Cary,North Carolina,USA,,264
+162,Weymouth Town,Massachusetts,USA,,142
+163,Tulsa,Oklahoma,USA,,263
+164,Mission,Texas,USA,,175
+165,Cuyahoga Falls,Ohio,USA,,189
+166,Malden,Massachusetts,USA,,147
+167,Allen,Texas,USA,,279
+168,Tucson,Arizona,USA,,310
+169,Franklin,Tennessee,USA,,128
+170,Shakopee,Minnesota,USA,,4
+171,Jacksonville,Florida,USA,,289
+172,Atlantic City,New Jersey,USA,,117
+173,Erie,Pennsylvania,USA,,61
+174,Merced,California,USA,,249
+175,Abilene,Texas,USA,,48
+176,Yorba Linda,California,USA,,227
+177,Greenville,South Carolina,USA,,88
+178,Huntersville,North Carolina,USA,,267
+179,St. Clair Shores,Michigan,USA,,52
+180,Harrisburg,Pennsylvania,USA,,19
+181,San Buenaventura (Ventura),California,USA,,278
+182,Fremont,California,USA,,40
+183,Pueblo,Colorado,USA,,269
+184,Chelsea,Massachusetts,USA,,277
+185,Belleville,Illinois,USA,,170
+186,Minneapolis,Minnesota,USA,,88
+187,Bartlett,Tennessee,USA,,61
+188,Wichita Falls,Texas,USA,,320
+189,Missouri City,Texas,USA,,76
+190,St. Louis,Missouri,USA,,305
+191,Pharr,Texas,USA,,32
+192,Albuquerque,New Mexico,USA,,191
+193,Athens-Clarke County,Georgia,USA,,242
+194,South Jordan,Utah,USA,,265
+195,North Las Vegas,Nevada,USA,,316
+196,Pomona,California,USA,,16
+197,Eastvale,California,USA,,32
+198,Grove City,Ohio,USA,,47
+199,Lawrence,Kansas,USA,,251
+200,Midland,Texas,USA,,115
+201,Oklahoma City,Oklahoma,USA,,34
+202,Oro Valley,Arizona,USA,,243
+203,Mesa,Arizona,USA,,164
+204,Norwalk,Connecticut,USA,,325
+205,Kentwood,Michigan,USA,,14
+206,Brookfield,Wisconsin,USA,,307
+207,Rockwall,Texas,USA,,269
+208,Mishawaka,Indiana,USA,,253
+209,Tustin,California,USA,,235
+210,St. Cloud,Minnesota,USA,,24
+211,Passaic,New Jersey,USA,,129
+212,Escondido,California,USA,,222
+213,San Bruno,California,USA,,296
+214,Berkeley,California,USA,,249
+215,San Clemente,California,USA,,107
+216,Lawton,Oklahoma,USA,,253
+217,Eau Claire,Wisconsin,USA,,115
+218,Maricopa,Arizona,USA,,87
+219,DeSoto,Texas,USA,,58
+220,Fort Wayne,Indiana,USA,,138
+221,Shoreline,Washington,USA,,144
+222,Medford,Massachusetts,USA,,63
+223,La Habra,California,USA,,259
+224,Albany,New York,USA,,313
+225,Daly City,California,USA,,63
+226,Taylor,Michigan,USA,,215
+227,Lynchburg,Virginia,USA,,58
+228,Bowie,Maryland,USA,,19
+229,Danbury,Connecticut,USA,,167
+230,Charlottesville,Virginia,USA,,326
+231,Coral Gables,Florida,USA,,52
+232,Coeur d'Alene,Idaho,USA,,42
+233,El Monte,California,USA,,56
+234,Crystal Lake,Illinois,USA,,238
+235,Danville,California,USA,,241
+236,Goodyear,Arizona,USA,,185
+237,Paterson,New Jersey,USA,,4
+238,Salem,Oregon,USA,,38
+239,Kissimmee,Florida,USA,,46
+240,Saginaw,Michigan,USA,,248
+241,Brownsville,Texas,USA,,204
+242,Flower Mound,Texas,USA,,48
+243,Grapevine,Texas,USA,,87
+244,Edina,Minnesota,USA,,327
+245,Detroit,Michigan,USA,,112
+246,Fairfield,Ohio,USA,,307
+247,Mansfield,Texas,USA,,235
+248,Rochester,New York,USA,,208
+249,Birmingham,Alabama,USA,,81
+250,Austin,Texas,USA,,160
+251,Santa Barbara,California,USA,,321
+252,Addison,Illinois,USA,,125
+253,Rio Rancho,New Mexico,USA,,332
+254,Normal,Illinois,USA,,196
+255,Romeoville,Illinois,USA,,221
+256,Coon Rapids,Minnesota,USA,,94
+257,San Mateo,California,USA,,55
+258,Orlando,Florida,USA,,106
+259,Casper,Wyoming,USA,,330
+260,Bedford,Texas,USA,,323
+261,Wilmington,North Carolina,USA,,124
+262,Pinellas Park,Florida,USA,,157
+263,North Miami Beach,Florida,USA,,68
+264,Kansas City,Kansas,USA,,101
+265,Fitchburg,Massachusetts,USA,,263
+266,Wheeling,Illinois,USA,,27
+267,Newton,Massachusetts,USA,,163
+268,North Miami,Florida,USA,,302
+269,Norwich,Connecticut,USA,,30
+270,Newark,New Jersey,USA,,78
+271,Alexandria,Louisiana,USA,,22
+272,Blaine,Minnesota,USA,,211
+273,Harlingen,Texas,USA,,2
+274,Lompoc,California,USA,,60
+275,Denton,Texas,USA,,94
+276,Galveston,Texas,USA,,271
+277,Greenwood,Indiana,USA,,330
+278,Salinas,California,USA,,169
+279,Miami Gardens,Florida,USA,,289
+280,Huntington,West Virginia,USA,,228
+281,Laredo,Texas,USA,,296
+282,Melbourne,Florida,USA,,67
+283,Haltom City,Texas,USA,,71
+284,Palm Bay,Florida,USA,,220
+285,Wilson,North Carolina,USA,,92
+286,Bountiful,Utah,USA,,214
+287,Ceres,California,USA,,49
+288,Parma,Ohio,USA,,209
+289,Rapid City,South Dakota,USA,,41
+290,Bell Gardens,California,USA,,250
+291,Commerce City,Colorado,USA,,121
+292,Springfield,Massachusetts,USA,,87
+293,Fort Collins,Colorado,USA,,43
+294,San Leandro,California,USA,,283
+295,Vista,California,USA,,53
+296,Yonkers,New York,USA,,282
+297,Cincinnati,Ohio,USA,,297
+298,Hagerstown,Maryland,USA,,140
+299,Sanford,Florida,USA,,124
+300,Union City,New Jersey,USA,,180
+301,Toledo,Ohio,USA,,227
+302,Sierra Vista,Arizona,USA,,185
+303,Newport News,Virginia,USA,,232
+304,Hammond,Indiana,USA,,214
+305,Buffalo Grove,Illinois,USA,,300
+306,Sugar Land,Texas,USA,,70
+307,Huntsville,Alabama,USA,,17
+308,Lodi,California,USA,,326
+309,Edmonds,Washington,USA,,104
+310,Duncanville,Texas,USA,,17
+311,Rocky Mount,North Carolina,USA,,127
+312,Pontiac,Michigan,USA,,23
+313,National City,California,USA,,335
+314,Hayward,California,USA,,250
+315,Niagara Falls,New York,USA,,4
+316,Sparks,Nevada,USA,,156
+317,Hanford,California,USA,,235
+318,Cypress,California,USA,,84
+319,Youngstown,Ohio,USA,,294
+320,Madison,Alabama,USA,,122
+321,Redlands,California,USA,,149
+322,Cape Girardeau,Missouri,USA,,310
+323,Nampa,Idaho,USA,,23
+324,Washington,District of Columbia,USA,,243
+325,Wheaton,Illinois,USA,,233
+326,Lancaster,Texas,USA,,272
+327,Rialto,California,USA,,291
+328,Fargo,North Dakota,USA,,137
+329,Peoria,Illinois,USA,,212
+330,Omaha,Nebraska,USA,,75
+331,Rancho Santa Margarita,California,USA,,191
+332,Manhattan,Kansas,USA,,85
+333,Palm Springs,California,USA,,281
+334,San Diego,California,USA,,291
+335,Santa Rosa,California,USA,,207

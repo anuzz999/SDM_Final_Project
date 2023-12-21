@@ -1,0 +1,16 @@
+Disease ID,Disease Name,Intensity Level Qty,Disease Type Cd,Source Disease Cd
+1,Tuberculosis,6,U003,TB
+2,STDs excluding HIV,7,U004,STD
+3,HIV/AIDS,8,U009,HIV
+4,Diarrhoeal diseases,6,U010,DHD
+5,Meningitis,6,U011,MGTS
+6,Hepatitis B (d),5,U017,HPB
+7,Hepatitis C (d),5,U018,HPC
+8,Malaria,4,U029,MLR
+9,Leprosy,4,U030,LP
+10,Dengue,4,U031,DG
+11,Trachoma,4,U032,TRC
+12,Intestinal nematode infections,3,U043,INI
+13,Other intestinal infections,3,U044,OII
+14,Lower respiratory infections,3,U045,LRI
+15,Upper respiratory infections,3,U046,URI

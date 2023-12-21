@@ -1,0 +1,50 @@
+Medicine ID,Standard Industry Number,med_name,Company,Active Ingredient Name
+1,J04AK06,Deltyba,Otsuka Novel Products GmbH,Delamanid
+2,J04AA01,Granupas,Eurocept International B. V.,Para-aminosalicylic acid
+3,J04,Dovprela,Mylan Ireland Limited,Pretomanid
+4,J04AK05,Sirturo,Janssen-Cilag International NV,bedaquiline fumarate
+5,J07AH09,Trumenba,Pfizer Europe MA EEIG,Neisseria meningitidis serogroup B fHbp (recombinant lipidated fHbp (factor H binding protein)) subf
+6,J07CA09,Hexacima,Sanofi Pasteur,"hepatitis B surface antigen, Diphtheria toxoid, tetanus toxoid, Bordetella pertussis antigens Pertus"
+7,J07CA09,Hexyon,Sanofi Pasteur Europe,"filamentous haemagglutinin, Haemophilus influenzae type B polysaccharide (polyribosylribitol phospha"
+8,J07AH09,Bexsero,GSK Vaccines S.r.l.,"outer membrane vesicles from neisseria meningitidis group b (strain nz 98/254), recombinant Neisseri"
+9,J07CA09,Vaxelis,MCM Vaccine B.V.,"Diphtheria toxoid, tetanus toxoid, Bordetella pertussis antigens: pertussis toxoid, filamentous haem"
+10,J07AH08,Nimenrix,Pfizer Europe MA EEIG,"Neisseria meningitidis group A polysaccharide conjugated to tetanus toxoid, Neisseria meningitidis g"
+11,J07AH08,MenQuadfi,Sanofi Pasteur,"Neisseria meningitidis group C polysaccharide conjugated to tetanus toxoid, Neisseria meningitidis g"
+12,J07CA09,Infanrix Hexa,GlaxoSmithKline Biologicals S.A.,"Diphtheria toxoid, tetanus toxoid, Bordetella pertussis antigens (pertussis toxoid, filamentous haem"
+13,J07AH08,Menveo,GSK Vaccines S.r.l.,"meningococcal group A, C, W-135 and Y conjugate vaccine"
+14,L01BC01,DepoCyte,Pacira Limited,cytarabine
+15,J07CA,Hexavac,"Sanofi Pasteur MSD, SNC","purified diphtheria toxoid, Purified Tetanus Toxoid, purified pertussis toxoid, purified pertussis f"
+16,J07CA,Procomvax,"Sanofi Pasteur MSD, SNC","polyribosylribitol phosphate from Haemophilus influenzae type b as PRP-OMPC, outer membrane protein"
+17,J07CA10,Quintanrix,GlaxoSmithKline Biologicals S.A.,"Diphtheria toxoid, tetanus toxoid, inactivated Bordetella pertussis, hepatitis B surface antigen (rD"
+18,J05AR10,Kaletra,AbbVie Deutschland GmbH  Co. KG,"lopinavir, ritonavir"
+19,J05AR20,Biktarvy,Gilead Sciences Ireland UC,"bictegravir, emtricitabine, tenofovir alafenamide, fumarate"
+20,J05AG04,Intelence,Janssen-Cilag International NV,Etravirine
+21,J05AR,Genvoya,Gilead Sciences Ireland UC,"elvitegravir, cobicistat, emtricitabine, tenofovir alafenamide"
+22,J05AE10,Darunavir Krka,"KRKA, d.d., Novo mesto",darunavir
+23,J05AG05,Rekambys,Janssen-Cilag International NV,rilpivirine
+24,J05AX07,Fuzeon,Roche Registration GmbH,enfuvirtide
+25,J05AR15,Evotaz,Bristol-Myers Squibb Pharma EEIG,"cobicistat, atazanavir"
+26,J05AR17,Descovy,Gilead Sciences Ireland UC,"emtricitabine, tenofovir alafenamide"
+27,J05AF09,Emtriva,Gilead Sciences Ireland UC,emtricitabine
+28,J05AR19,Odefsey,Gilead Sciences Ireland UC,"emtricitabine, rilpivirine hydrochloride, tenofovir alafenamide"
+29,J05AR,Dovato,ViiV Healthcare B.V.,"dolutegravir sodium, lamivudine"
+30,J05AR13,Triumeq,ViiV Healthcare B.V.,"dolutegravir sodium, lamivudine, abacavir (as sulfate)"
+31,A07,Truberzi,Allergan Pharmaceuticals International Limited,eluxadoline
+32,P01BE03,Artesunate Amivas,Amivas Ireland Ltd,artesunate
+33,P01BF05,Eurartesim,Alfasigma S.p.A.,"piperaquine tetraphosphate, Artenimol"
+34,L04AX05,Esbriet,Roche Registration GmbH,Pirfenidone
+35,J01DH,Vaborem,Menarini International Operations Luxembourg S.A.,"meropenem trihydrate, vaborbactam"
+36,J06BD01,Synagis,AstraZeneca AB,palivizumab
+37,J01GB01,Tobi Podhaler,Mylan Ireland Limited,Tobramycin
+38,J01MA12,Quinsair,Chiesi Farmaceutici S.p.A,levofloxacin
+39,J01GB06,Arikayce liposomal,Insmed Netherlands B.V.,Amikacin sulfate
+40,J01DF01,Cayston,Gilead Sciences Ireland UC,aztreonam lysine
+41,J01GB01,Vantobra,Pari Pharma GmbH,Tobramycin
+42,R07AX,INOmax,Linde Healthcare AB,Nitric oxide
+43,J01GB01,VantobraX10,Pari Pharma GmbH,Tobramycin
+44,J07BX,Dengvaxia,Sanofi Pasteur,"chimeric yellow fever dengue virus serotype 1 (live, attenuated), chimeric yellow fever dengue virus"
+45,L01EX18,Ayvakyt,Blueprint Medicines (Netherlands) B.V.,avapritinib
+46,L01EX01,Sunitinib Accord,Accord Healthcare S.L.U.,sunitinib
+47,L01,Qinlock,Deciphera Pharmaceuticals (Netherlands) B.V.,ripretinib
+48,L01EX01,Sutent,Pfizer Limited,sunitinib
+49,L01EX02,penicillin g benzathine,Pfizer Limited,penicillin g benzathine systemic

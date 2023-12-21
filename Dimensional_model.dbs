@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="PostgreSQL" id="Project-1892" database="PostgreSQL" >
+	<schema name="disease_dw" >
+		<table name="dimdisease" row_count="0" >
+			<column name="disease_id" type="integer" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="disease_name" type="varchar" length="100" decimal="0" jt="12" mandatory="y" />
+			<column name="disease_type_cd" type="char" length="5" decimal="0" jt="1" mandatory="y" />
+			<column name="source_disease_cd" type="char" length="5" decimal="0" jt="1" mandatory="y" />
+			<index name="dimdisease_pkey" unique="PRIMARY_KEY" >
+				<column name="disease_id" />
+			</index>
+			<fk name="dimdisease_disease_type_cd_fkey" to_schema="disease_dw" to_table="dimdisease_type" delete_action="cascade" update_action="cascade" >
+				<fk_column name="disease_type_cd" pk="disease_type_cd" />
+			</fk>
+		</table>
+		<table name="dimdisease_type" row_count="118" >
+			<column name="disease_type_cd" type="char" length="5" decimal="0" jt="1" mandatory="y" />
+			<column name="disease_type_desc" type="varchar" length="1000" decimal="0" jt="12" mandatory="y" />
+			<column name="notes" type="varchar" length="2000" decimal="0" jt="12" />
+			<index name="dimdisease_type_pkey" unique="PRIMARY_KEY" >
+				<column name="disease_type_cd" />
+			</index>
+		</table>
+		<table name="dimlocation" row_count="335" >
+			<column name="location_id" type="integer" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="city_name" type="varchar" length="100" decimal="0" jt="12" mandatory="y" />
+			<column name="state_name" type="varchar" length="100" decimal="0" jt="12" />
+			<column name="county_name" type="varchar" length="100" decimal="0" jt="12" mandatory="y" />
+			<column name="developing_flag" type="char" length="1" decimal="0" jt="1" />
+			<column name="wealth_rank_num" type="integer" length="10" decimal="0" jt="4" mandatory="y" />
+			<index name="dimlocation_pkey" unique="PRIMARY_KEY" >
+				<column name="location_id" />
+			</index>
+		</table>
+		<table name="dimmedicine" row_count="0" >
+			<column name="med_id" type="integer" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="standard_ind_num" type="varchar" length="250" decimal="0" jt="12" />
+			<column name="med_name" type="varchar" length="25" decimal="0" jt="12" mandatory="y" />
+			<column name="company_name" type="varchar" length="150" decimal="0" jt="12" />
+			<column name="active_ing_name" type="varchar" length="150" decimal="0" jt="12" />
+			<index name="dimmedicine_pkey" unique="PRIMARY_KEY" >
+				<column name="med_id" />
+			</index>
+		</table>
+		<table name="dimpatient" row_count="62" >
+			<column name="person_id" type="integer" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="disease_id" type="integer" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="severity_value" type="integer" length="10" decimal="0" jt="4" mandatory="y" >
+				<defo><![CDATA[1]]></defo>
+			</column>
+			<column name="start_date" type="date" length="13" decimal="0" jt="91" mandatory="y" />
+			<column name="end_date" type="date" length="13" decimal="0" jt="91" />
+			<index name="dimpatient_pkey" unique="PRIMARY_KEY" >
+				<column name="person_id" />
+				<column name="disease_id" />
+			</index>
+		</table>
+		<table name="dimperson" row_count="62" >
+			<column name="person_id" type="integer" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="last_name" type="varchar" length="50" decimal="0" jt="12" mandatory="y" />
+			<column name="first_name" type="varchar" length="50" decimal="0" jt="12" mandatory="y" />
+			<column name="gender" type="char" length="1" decimal="0" jt="1" mandatory="y" />
+			<column name="location_id" type="integer" length="10" decimal="0" jt="4" mandatory="y" />
+			<column name="race_code" type="char" length="5" decimal="0" jt="1" mandatory="y" />
+			<index name="dimperson_pkey" unique="PRIMARY_KEY" >
+				<column name="person_id" />
+			</index>
+			<fk name="dimperson_location_id_fkey" to_schema="disease_dw" to_table="dimlocation" delete_action="cascade" update_action="cascade" >
+				<fk_column name="location_id" pk="location_id" />
+			</fk>
+			<fk name="dimperson_race_code_fkey" to_schema="disease_dw" to_table="dimrace" delete_action="cascade" update_action="cascade" >
+				<fk_column name="race_code" pk="race_code" />
+			</fk>
+		</table>
+		<table name="dimrace" row_count="0" >
+			<column name="race_code" type="char" length="5" decimal="0" jt="1" mandatory="y" />
+			<column name="race_desc" type="varchar" length="100" decimal="0" jt="12" mandatory="y" />
+			<index name="dimrace_pkey" unique="PRIMARY_KEY" >
+				<column name="race_code" />
+			</index>
+		</table>
+		<table name="factdisease" row_count="310" >
+			<column name="disease_id" type="integer" length="10" decimal="0" jt="4" />
+			<column name="person_id" type="integer" length="10" decimal="0" jt="4" />
+			<column name="med_id" type="integer" length="10" decimal="0" jt="4" />
+			<column name="severity_value" type="integer" length="10" decimal="0" jt="4" />
+			<column name="intensity_lvl_qty" type="integer" length="10" decimal="0" jt="4" />
+			<column name="indication_date" type="date" length="13" decimal="0" jt="91" />
+			<column name="effectiveness" type="double precision" length="17" decimal="17" jt="3" />
+			<column name="propensity_value" type="integer" length="10" decimal="0" jt="4" />
+			<fk name="factdisease_disease_id_fkey" to_schema="disease_dw" to_table="dimdisease" >
+				<fk_column name="disease_id" pk="disease_id" />
+			</fk>
+			<fk name="factdisease_med_id_fkey" to_schema="disease_dw" to_table="dimmedicine" >
+				<fk_column name="med_id" pk="med_id" />
+			</fk>
+			<fk name="factdisease_person_id_disease_id_fkey" to_schema="disease_dw" to_table="dimpatient" >
+				<fk_column name="person_id" pk="person_id" />
+				<fk_column name="disease_id" pk="disease_id" />
+			</fk>
+			<fk name="fk_factdisease_dimperson" to_schema="disease_dw" to_table="dimperson" >
+				<fk_column name="person_id" pk="person_id" />
+			</fk>
+		</table>
+	</schema>
+	<connector name="PostgreSQL" database="PostgreSQL" driver_class="org.postgresql.Driver" driver_jar="postgresql-42.5.0.jar" driver_desc="Standard" host="localhost" port="5432" instance="Disease" user="postgres" passwd="TmVhcXFsbG0xLiE=" useSystemProxy="false" />
+	<layout name="Main Layout" id="Layout-454" show_relation="columns" >
+		<entity schema="disease_dw" name="dimdisease" color="C7F4BE" x="736" y="80" />
+		<entity schema="disease_dw" name="dimdisease_type" color="C7F4BE" x="976" y="80" />
+		<entity schema="disease_dw" name="dimlocation" color="BED3F4" x="48" y="80" />
+		<entity schema="disease_dw" name="dimmedicine" color="C7F4BE" x="736" y="352" />
+		<entity schema="disease_dw" name="dimpatient" color="C7F4BE" x="512" y="352" />
+		<entity schema="disease_dw" name="dimperson" color="BED3F4" x="304" y="80" />
+		<entity schema="disease_dw" name="dimrace" color="BED3F4" x="96" y="368" />
+		<entity schema="disease_dw" name="factdisease" color="C7F4BE" x="512" y="80" />
+		<group name="dimperson" color="ECF0F7" >
+			<entity schema="disease_dw" name="dimrace" />
+			<entity schema="disease_dw" name="dimlocation" />
+			<entity schema="disease_dw" name="dimperson" />
+		</group>
+		<group name="factdisease" color="EEF7EC" >
+			<entity schema="disease_dw" name="dimdisease" />
+			<entity schema="disease_dw" name="dimmedicine" />
+			<entity schema="disease_dw" name="dimpatient" />
+			<entity schema="disease_dw" name="dimdisease_type" />
+			<entity schema="disease_dw" name="factdisease" />
+		</group>
+	</layout>
+	<layout name="~Layout with Sample Tools" id="Layout-26ef" show_column_type="y" show_relation="columns" >
+		<entity schema="disease_dw" name="dimdisease" color="C7F4BE" x="336" y="48" />
+		<entity schema="disease_dw" name="dimdisease_type" color="C7F4BE" x="608" y="48" />
+		<entity schema="disease_dw" name="dimlocation" color="BED3F4" x="1200" y="48" />
+		<entity schema="disease_dw" name="dimmedicine" color="C7F4BE" x="336" y="320" />
+		<entity schema="disease_dw" name="dimpatient" color="C7F4BE" x="48" y="320" />
+		<entity schema="disease_dw" name="dimperson" color="BED3F4" x="944" y="48" />
+		<entity schema="disease_dw" name="dimrace" color="BED3F4" x="1200" y="288" />
+		<entity schema="disease_dw" name="factdisease" color="C7F4BE" x="48" y="48" />
+		<script name="SQL Editor" id="Editor-d5a" language="SQL" >
+			<string><![CDATA[SELECT
+	disease_id, person_id, med_id, severity_value, intensity_lvl_qty, indication_date, effectiveness, propensity_value
+FROM
+	disease_dw.factdisease e;]]></string>
+		</script>
+		<browser id="Browse-2111" name="Relational Data Explorer" confirm_updates="y" >
+			<browse_table schema="disease_dw" entity="factdisease" x="20" y="20" width="400" height="300" >
+				<browse_table schema="disease_dw" entity="dimdisease" fk="factdisease_disease_id_fkey" x="440" y="20" width="500" height="350" record_view="y" >
+					<browse_table schema="disease_dw" entity="dimdisease_type" fk="dimdisease_disease_type_cd_fkey" x="960" y="20" width="500" height="350" record_view="y" />
+				</browse_table>
+			</browse_table>
+		</browser>
+		<query id="Query-24ca" name="Query Builder" >
+			<query_table schema="disease_dw" name="factdisease" alias="f" x="48" y="48" >
+				<column name="disease_id" />
+				<column name="person_id" />
+				<column name="med_id" />
+				<column name="severity_value" />
+				<column name="intensity_lvl_qty" />
+				<column name="indication_date" />
+				<column name="effectiveness" />
+				<column name="propensity_value" />
+				<query_table schema="disease_dw" name="dimdisease" alias="d" x="272" y="48" fk="factdisease_disease_id_fkey" type="Inner Join" >
+					<column name="disease_id" />
+					<column name="disease_name" />
+					<column name="disease_type_cd" />
+					<column name="source_disease_cd" />
+					<query_table schema="disease_dw" name="dimdisease_type" alias="dt" x="512" y="48" fk="dimdisease_disease_type_cd_fkey" type="Inner Join" >
+						<column name="disease_type_cd" />
+						<column name="disease_type_desc" />
+						<column name="notes" />
+					</query_table>
+				</query_table>
+			</query_table>
+		</query>
+		<form name="Report" id="Report-45c" template="Page" css="container-fluid" view="frame" >
+			<var name="samplePageNumber" type="4" value="0" mandatory="n" />
+			<var name="sampleRecordsPerPage" type="4" value="100" mandatory="n" />
+			<body name="Body" template="Grid" pos="0,0,0,0,f,f" layout="{{-2,-2,-2,-2,-1},{-2,-2,-2,-2}}" scroll="n" html="n" >
+				<cell type="label" name="Factdisease Data" template="H3" pos="0,0,1,0,l,c" />
+				<cell type="chart" name="Pie" template="Pie" pos="0,1,4,1,l,c" max_records="20" >
+					<form_script type="DataSource" language="SQL" >
+						<var name="disease_id" type="4" />
+						<var name="person_id" type="4" />
+						<var name="med_id" type="4" />
+						<var name="severity_value" type="4" />
+						<var name="intensity_lvl_qty" type="4" />
+						<var name="indication_date" type="91" />
+						<var name="effectiveness" type="3" />
+						<var name="propensity_value" type="4" />
+						<script ><![CDATA[SELECT * FROM disease_dw.factdisease]]></script>
+					</form_script>
+					<param name="width" value="100%" />
+					<param name="v0" value="disease_id" />
+					<param name="title" value="Sample Chart" />
+					<param name="height" value="400px" />
+				</cell>
+				<tableview name="sample" template="Table" css="table table-striped table-sm table-hover" pos="0,2,4,2,f,f" layout="{{-2,-2,-2,-2,-2,-2,-2},{-2,-2}}" scroll="n" html="n" header_rows="1" >
+					<form_script type="DataSource" language="SQL" >
+						<var name="disease_id" type="4" />
+						<var name="person_id" type="4" />
+						<var name="med_id" type="4" />
+						<var name="severity_value" type="4" />
+						<var name="intensity_lvl_qty" type="4" />
+						<var name="indication_date" type="91" />
+						<var name="effectiveness" type="3" />
+						<var name="propensity_value" type="4" />
+						<script ><![CDATA[SELECT * FROM disease_dw.factdisease]]></script>
+					</form_script>
+					<cell type="label" name="disease_id" pos="0,0,0,0,c,c" />
+					<cell type="label" name="person_id" pos="1,0,1,0,c,c" />
+					<cell type="label" name="med_id" pos="2,0,2,0,c,c" />
+					<cell type="label" name="severity_value" pos="3,0,3,0,c,c" />
+					<cell type="label" name="intensity_lvl_qty" pos="4,0,4,0,c,c" />
+					<cell type="label" name="indication_date" pos="5,0,5,0,c,c" />
+					<cell type="label" name="Button can open other pages." pos="6,0,6,0,c,c" />
+					<cell type="label" name="${disease_id}" template="Plain" pos="0,1,0,1,l,c" />
+					<cell type="label" name="${person_id}" template="Plain" pos="1,1,1,1,l,c" />
+					<cell type="label" name="${med_id}" template="Plain" pos="2,1,2,1,l,c" />
+					<cell type="label" name="${severity_value}" template="Plain" pos="3,1,3,1,l,c" />
+					<cell type="label" name="${intensity_lvl_qty}" template="Plain" pos="4,1,4,1,l,c" />
+					<cell type="label" name="${indication_date}" template="Plain" pos="5,1,5,1,l,c" />
+					<cell type="button" name="More" template="Plain" css="btn btn-sm btn-secondary" pos="6,1,6,1,c,c" ref_id="Report-45c" />
+				</tableview>
+				<cell type="href" name="" disabled="${samplePageNumber&lt;1}" pos="0,3,0,3,l,c" glyph="bi-chevron_double_left" ref_id="Report-45c" >
+					<var name="samplePageNumber" value="0" />
+				</cell>
+				<cell type="href" name="" disabled="${samplePageNumber&lt;1}" pos="1,3,1,3,l,c" glyph="bi-chevron_left" ref_id="Report-45c" >
+					<var name="samplePageNumber" value="${Math.max(0,samplePageNumber-1)}" />
+				</cell>
+				<cell type="label" name="Page ${samplePageNumber+1}" pos="2,3,2,3,l,c" />
+				<cell type="href" name="" disabled="${!sampleHasNextPage}" pos="3,3,3,3,l,c" glyph="bi-chevron_right" ref_id="Report-45c" >
+					<var name="samplePageNumber" value="${( samplePageNumber+1 )}" />
+				</cell>
+			</body>
+		</form>
+	</layout>
+</project>
